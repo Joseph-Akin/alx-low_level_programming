@@ -1,20 +1,8 @@
 #include <studio.h>
-
 /**
- *  * main - Prints "Programming is like building a multilingual
- *           puzzle, followed by a new line
- *     Return: Always 0.
- * */
-
-int main(void)
-
-{
-
-	 puts("\"Programming is like building a multilingual puzzle");
-
-
-
-	  return (0);
-
-}
-
+ * Description: main - Print out a string to stdout.
+ * Return: 0 if success.
+ */
+	puts("\"  Programming is like building a multilingual puzzle");
+	return (0);
+}	
