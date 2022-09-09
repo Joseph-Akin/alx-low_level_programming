@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-* main - entry point
-*
-* Description: prints and that piece of art is useful 
-* Return: 1 if sucessfull
+ * main - entry point
+ *
+ * Description: prints and that piece of art is useful
+ * Return: 1 if sucessfull
 */
 int main(void)
 {
