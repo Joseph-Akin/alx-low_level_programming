@@ -1,14 +1,14 @@
 #include <stdio.h> 
 /**
-* main - print different various types 
-*
-* Description: using the main function
-* this program prints "programming is like building a multilingual puzzle 
-* Return: Always 0 (Success) 
+ *main - print different various types 
+ * 
+ *Description: using the main function
+ *this program prints "programming is like building a multilingual puzzle 
+ *Return: Always 0 (Success) 
 */
 int main(void)
 {
-        char c; 
+       	char c; 
         int i; 
         long li; 
         long long lli; 
