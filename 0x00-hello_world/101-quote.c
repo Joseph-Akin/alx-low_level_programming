@@ -1,9 +1,10 @@
 #include <stdio.h>
-#include <string.h>
 #include <unistd.h>
 /**
- * main - main block 
- * Return: 1
+ * main - entry point
+ *
+ * Description: prints and that piece of art is useful 
+ * Return: 1 if sucessfull
  */
 int main(void)
 {
