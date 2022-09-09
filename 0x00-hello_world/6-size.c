@@ -1,23 +1,17 @@
-#include <stdio.h>
-/**
-* main - print different various types
-* 
-* Description: using the main function
-* this program prints "programming is like building a multilingual puzzle"
-* Return: Always 0 (Success)
-*/
-int main(void)
-{
-       	char c;
-       	int i;
-        long li;
-        long long lli;
-        float f;
+#include <stdio.h> 
 
-	printf("Size of a char: %d byte(s)\n", sizeof(c));
-	printf("Size of an int: %d byte(s)\n", sizeof(i));
-        printf("Size of a long int: %d byte(s)\n", sizeof(li));
-        printf("Size of a long long int: %d byte(s)\n", sizeof(lli));
-        printf("Size of a float: %d byte(s)\n", sizeof(f));
-        return (0);
-} 
+/**
+ * main - prints sized of characters 
+ *
+ * Return: Always 0 (Success) 
+ */
+
+int main(void) 
+
+{
+	printf("Size of a char: %zu byte(s)\n", sizeof(char)); 
+	printf("Size of an int: %zu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));	printf("Size of a float: %zu byte(s)\n", sizeof(float));
+	return (0);
+}	
