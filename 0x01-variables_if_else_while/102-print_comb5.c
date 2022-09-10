@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unisted.h>
 /**
  * main - print 3 combination of numbers
  * Description: prints all possible combination of 2-digit number
