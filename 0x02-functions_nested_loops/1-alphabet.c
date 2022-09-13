@@ -8,7 +8,7 @@
  */
 void print_alphabet(void)
 {
-	chat letter = 'a';
+	char letter = 'a';
 
 	while (letter <= 'z')
 	{
