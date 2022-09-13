@@ -1,9 +1,9 @@
 #include "main.h"
+
 /**
- * main - entry point
- * description: prints '_putchat\n'
- * retutn: always 0 (success)
- */
+ * main - prints putchar
+ * Return: always 0
+ */ 
 int main(void)
 {
 	_putchar('_');
