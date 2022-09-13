@@ -1,4 +1,4 @@
-#include "main.h" 
+#include main.h 
 /**
  * main - entry point
  * description: prints '_putchat\n'
@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-char str[] = "_putchar\n";
-int i = 0;
+	_putchar('_')
+	_putchar('p')
+	_putchar('u')
+	_putchar('t')
+	_putchar('c')
+	_putchar('h')
+	_putchar('a')
+	_putchar('r')
+	_putchar('\n')
 
-while (str[i] != '\0')
-	{
-	char c = str[i];
-
-	_putchar(c);
-	i++;
-	}
-return(0);
+	return (0);
 }
