@@ -1,5 +1,5 @@
 #include "stdio.h"
-#include "main.h"
+#include "main.c"
 /**
  * main - entry point
  * description: prints '_putchat\n'
