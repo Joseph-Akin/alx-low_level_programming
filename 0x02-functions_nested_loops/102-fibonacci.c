@@ -1,23 +1,31 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description: computes and prints even  number < 4,000,000
- * 5 below 1024 (excluded), followed by a new line
- * Return: 0
+ * main - Prints the first 52 fibonacci numbers
+ *
+ * Return: Nothing!
  */
 int main(void)
 {
-	int a = 0, b = 1, next = 0;
-	int sum = 0;
+	int i = 0;
+	long j = 1, k = 2;
 
-	while (next < 4000000)
+	while (i < 50)
 	{
-		next = a + b;
-		a = b;
-		b = next;
-		if (next % 2 == 0)
-			sum += next;
+		if (i == 0)
+			printf("%ld", j);
+		else if (i == 1)
+			printf(", %ld", k);
+		else
+		{
+			k += j;
+			j = k - j;
+			printf(", %ld", k);
+		}
+
+		++i;
 	}
-	printf("%i\n", sum);
+
+	printf("\n");
 	return (0);
 }
