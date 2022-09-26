@@ -16,18 +16,15 @@ char *_strpbrk(char *s, char *accept)
 		j = 0;
 		while (accept[j] != '\0')  /*Evaluating *accept*/
 		{
-			j = 0;
-			while (accept[j] != '\0')  /*Evaluating *accept*/
+			if (*s == accept[j])
 			{
-				if (*s == accept[j])
-				{
-					return (s);
-				}
-
-				j++; /*add j+1*/
+				return (s);
 			}
 
-			s++; /*add s+1*/
+			j++; /*add j+1*/
+		}
+
+		s++; /*add s+1*/
 	}
 	return (0);
 
