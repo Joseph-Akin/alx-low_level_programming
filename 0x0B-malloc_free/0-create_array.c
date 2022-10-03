@@ -2,7 +2,7 @@
 /**
  *create_array - array for prints a string
  *@size: number elements array
- @c: char
+ *@c: char
  *return pointer
  */
 
